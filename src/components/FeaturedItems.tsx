@@ -11,9 +11,9 @@ const FeaturedItems = () => {
       <div className="w-max flex">
         {/* singleItems */}
         {featuredProducts.map(items =>(
-        <div className="flex flex-col w-screen h-[70vh] items-center justify-around  md:w-[50vw] xl:w-[33vw] md:h-[70vh] xl:h-[90vh] gap-3 p-4">
+        <div key={items.id} className="flex flex-col w-screen h-[70vh] items-center justify-around  md:w-[50vw] xl:w-[33vw] md:h-[70vh] xl:h-[90vh] gap-3 p-4">
           {/* image container */}
-          { items.img && <div key={items.id} className="relative  flex-1 w-full hover:rotate-[60deg] transition-all duration-500 ">
+          { items.img && <div className="relative  flex-1 w-full hover:rotate-[60deg] transition-all duration-500 ">
             <Image src={items.img} alt="food" fill className="object-contain" />
           </div>}
           {/* text conatiner */}

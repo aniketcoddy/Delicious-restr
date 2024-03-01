@@ -356,6 +356,7 @@ type Product = {
   };
   
   
+  
   type Menu = {
     id: number;
     slug: string;

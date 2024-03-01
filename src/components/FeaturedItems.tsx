@@ -6,7 +6,7 @@ import { featuredProducts } from "@/data";
 
 const FeaturedItems = () => {
   return (
-    <div className="w-full overflow-x-scroll text-primary">
+    <div className="w-full overflow-x-scroll text-primary lg:mt-8 lg:mb-8">
       {/* wrapper */}
       <div className="w-max flex">
         {/* singleItems */}

@@ -37,7 +37,7 @@ const Slider = () => {
   // },[])
 
   return (
-    <div className="flex flex-col md:flex-row gap-5 h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] bg-primary/20">
+    <div className="flex flex-col md:flex-row gap-5 h-[calc(100vh-6rem)] md:h-[calc(100vh-7rem)] bg-primary/20">
       <div className="flex-1 flex items-center justify-center flex-col gap-4 text-primary font-bold ">
         <h1 className="text-2xl text-center uppercase p-4 md:text-5xl">
          {data[currentSlide].title}

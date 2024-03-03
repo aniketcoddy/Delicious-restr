@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className=" flex text-primary h-full w-full justify-between md:justify-between md:font-bold items-center border-b-2 border-primary p-6 uppercase">
+      <div className=" flex text-primary h-full w-full justify-between md:justify-between md:font-bold items-center border-b-2 border-primary p-3 uppercase">
         <div className="hidden md:flex ml-11">
           <div className=" flex gap-5 font-semibold ">
             <Link href="/">HomePage</Link>

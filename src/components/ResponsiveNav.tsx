@@ -79,7 +79,7 @@ const ResponsiveNav = () => {
       ) : (
         <Link href="/login">Orders</Link>
       )}
-      <Link href="/cart">
+      <Link href="/cart"  onClick={()=>setOpen(false)}>
         <CartIcon/>
       </Link>
     </div>

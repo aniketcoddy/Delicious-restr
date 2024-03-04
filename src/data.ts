@@ -202,9 +202,7 @@ type Product = {
   ];
   
   
-  
-  
-  export const pizzas: Products = [
+  export const pizza: Products = [
     {
       id: 1,
       title: "Sicilian",
@@ -332,7 +330,7 @@ type Product = {
       ],
     },
   ];
-  
+
   export const singleProduct: Product = {
     id: 1,
     title: "Sicilian",
@@ -369,7 +367,7 @@ type Product = {
   export const menu: Menu = [
     {
       id: 1,
-      slug: "pastas",
+      slug: "pasta",
       title: "Italian Pastas",
       desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
       img: "/temporary/m1.png",
@@ -377,7 +375,7 @@ type Product = {
     },
     {
       id: 2,
-      slug: "burgers",
+      slug: "burger",
       title: "Juicy Burgers",
       desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
       img: "/temporary/m2.png",
@@ -385,7 +383,7 @@ type Product = {
     },
     {
       id: 3,
-      slug: "pizzas",
+      slug: "pizza",
       title: "Cheesy Pizzas",
       desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
       img: "/temporary/m3.png",

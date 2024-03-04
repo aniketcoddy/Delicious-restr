@@ -1,12 +1,12 @@
 import React from 'react'
-import { pizzas } from '@/data'
+import { pizza } from '@/data'
 import Link from 'next/link'
 import Image from 'next/image'
 
 const CategoryPage = () => {
   return (
     <div className='flex flex-wrap text-primary'>
-     {pizzas.map(items=>(
+     {pizza.map(items=>(
        <Link href={`/product/${items.id}`} key={items.id} className='w-full h-[60vh] border-b-2  border-r-2 border-primary sm:w-1/2 lg:w-1/3 p-4 flex flex-col justify-between group'>
 
           <div className='flex relative h-[80%] justify-center items-center'>

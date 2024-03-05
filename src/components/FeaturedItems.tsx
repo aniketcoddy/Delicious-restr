@@ -20,7 +20,7 @@ const FeaturedItems = () => {
           <div className=" flex flex-1 text-center items-center flex-col gap-2">
             <h1 className="text-xl font-bold uppercase xl:text-2xl 2xl:text-3xl">{items.title}</h1>
             <p className="p-2 text-sm xl:text-lg 2xl:text-xl">{items.desc}</p>
-            <span className="text-xl font-bold xl:text-xl 2xl:text-2xl">${items.price}</span>
+            <span className="text-xl font-bold xl:text-xl 2xl:text-2xl">₹{items.price}</span>
             <button className="bg-primary p-2 rounded-md text-white ">Add To Cart</button>
           </div>
         </div>

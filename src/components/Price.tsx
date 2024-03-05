@@ -1,5 +1,4 @@
 'use client'
-import { singleProduct } from "@/data";
 import React, { useEffect, useState } from "react";
 import { useFormState } from "react-dom";
 
@@ -21,7 +20,7 @@ const Price = ({ price, id, options }: Props) => {
 
   return (
     <div className="flex flex-col gap-5">
-      <h2 className="text-xl md:text-2xl font-bold">${total.toFixed(2)}</h2>
+      <h2 className="text-xl md:text-2xl font-bold">₹{total.toFixed(2)}</h2>
       <div className="flex gap-4">
      {options?.map((option,index) => (
       <button key={option.title} className="p-1 min-w-[5rem]   text-sm md:text-lg md:p-2 ring-1 ring-primary rounded-md" style={{ background : selected === index ? "rgb(248 113 113)" : "white" , color:selected === index ? "white" : "rgb(248 113 113)" }} onClick={()=>setSelected(index)} >{option.title}</button>

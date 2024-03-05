@@ -1,11 +1,22 @@
+'use client'
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { menu } from "@/data";
 import Link from "next/link";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 const Menu = () => {
+
+  useEffect(() => {
+    Aos.init()
+  }, []);
+
   return (
-    <div className="p-2 h-full  md:h-screen flex flex-col items-center md:flex-row ">
+    <div 
+    data-aos="fade-up"
+      data-aos-duration="800"
+    className="p-2 h-full  md:h-screen flex flex-col items-center md:flex-row ">
       {menu.map((category) => (
         <Link
           href={`/menu/${category.slug}`}

@@ -1,9 +1,11 @@
 'use client'
 import Image from "next/image";
 import { menu, pizza, pasta, burger, Product } from "@/data";
-import React from "react";
+import React, { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Price from "@/components/Price";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 const SingleProductPage = () => {
   const pathname = usePathname();
@@ -15,11 +17,18 @@ const SingleProductPage = () => {
   const data2: Array<Product> = new Array();
   data2.push(data.filter((items) => items.id === id)[0]);
 
+  useEffect(() => {
+    Aos.init()
+  }, []);
+
   return (
     <div>
        {data2.map(items=>(
       <div key={items.id} className="p-4 lg:px-20 xl:px-40 h-screen flex flex-col justify-around text-primary md:flex-row md:justify-center md:items-center">
-        <div className="relative w-full h-1/2 ">
+        <div 
+        data-aos="zoom-in"
+        data-aos-duration="800"
+        className="relative w-full h-1/2 ">
           {items.img && (
             <Image
               src={items.img}
@@ -29,7 +38,10 @@ const SingleProductPage = () => {
             />
           )}
         </div>
-        <div className="h-1/2 flex flex-col gap-3">
+        <div
+        data-aos="fade-left"
+        data-aos-duration="800"
+        className="h-1/2 flex flex-col gap-3">
           <h1 className="text-xl md:text-3xl font-bold uppercase">
             {items.title}
           </h1>

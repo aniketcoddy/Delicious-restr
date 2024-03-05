@@ -1,12 +1,24 @@
+'use client'
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import Login from "../../../public/loginBg.png";
 import Google from "../../../public/google.png";
 import Facebook from "../../../public/facebook.png";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 const LoginPage = () => {
+
+  useEffect(() => {
+    Aos.init()
+  }, []);
+
+
   return (
-    <div className="flex flex-col md:flex-row md:justify-center items-center h-[calc(100vh-9rem)]  lg:px-40 p-2">
+    <div 
+    data-aos="zoom-in"
+        data-aos-duration="800"
+    className="flex flex-col md:flex-row md:justify-center items-center h-[calc(100vh-9rem)]  lg:px-40 p-2">
       {/* image container */}
       <div className="h-full shadow-2xl rounded-md flex flex-col md:flex-row md:h-[70%] md:w-full lg:w-[60%] 2xl:w-1/2">
         <div className="relative h-1/2 md:w-1/2 w-full md:h-full">

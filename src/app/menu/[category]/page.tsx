@@ -1,9 +1,11 @@
 'use client'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { pizza , pasta , burger , Product} from '@/data'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 
 const CategoryPage = () => {
@@ -12,13 +14,19 @@ const CategoryPage = () => {
 console.log(category,"double")
   const data : Product[]= dataByCategory[category]                                                                                                                                                                                                                                                                   
 
+  useEffect(() => {
+    Aos.init()
+  }, []);
 
   return (
     <div className='flex flex-wrap text-primary'>
      {data.map(items=>(
        <Link href={`/menu/${category}/${items.id}`} key={items.id} className='w-full h-[60vh] border-b-2  border-r-2 border-primary sm:w-1/2 lg:w-1/3 p-4 flex flex-col justify-between group'>
 
-          <div className='flex relative h-[80%] justify-center items-center'>
+          <div 
+          data-aos="zoom-in"
+          data-aos-duration="800"
+          className='flex relative h-[80%] justify-center items-center'>
             {items.img && 
               <Image src={items.img} alt='pizza' fill className='object-contain'/>
               }

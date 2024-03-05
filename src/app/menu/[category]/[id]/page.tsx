@@ -18,7 +18,7 @@ const SingleProductPage = () => {
   return (
     <div>
        {data2.map(items=>(
-      <div className="p-4 lg:px-20 xl:px-40 h-screen flex flex-col justify-around text-primary md:flex-row md:justify-center md:items-center">
+      <div key={items.id} className="p-4 lg:px-20 xl:px-40 h-screen flex flex-col justify-around text-primary md:flex-row md:justify-center md:items-center">
         <div className="relative w-full h-1/2 ">
           {items.img && (
             <Image

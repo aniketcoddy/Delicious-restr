@@ -1,4 +1,3 @@
-'use client'
 import ResponsiveNav from "./ResponsiveNav";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,15 +5,9 @@ import React, { Dispatch, SetStateAction, useState } from "react";
 import Open from "../../public/open.png";
 import close from "../../public/close.png";
 import CartIcon from "./CartIcon";
-import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const user = false;
-
-  const router = useRouter()
-  const navigateToCartPage=()=>{
-    router.push('/cart')
-  }
 
   return (
     <div>
@@ -39,9 +32,9 @@ const Navbar = () => {
           ) : (
             <Link href="/orders">Orders</Link>
           )}
-          <button onClick={navigateToCartPage}>
+          <Link href="/cart">
           <CartIcon />
-          </button>
+          </Link>
          
         </div>
         

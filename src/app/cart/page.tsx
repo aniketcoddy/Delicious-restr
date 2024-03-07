@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import Image from "next/image";
 import { CartItem } from "@/types";
 import { RootState } from "../../Store/index";

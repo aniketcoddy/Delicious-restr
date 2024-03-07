@@ -11,7 +11,6 @@ import Aos from "aos";
 const CategoryPage = () => {
   const pathname = usePathname()
   const category :string = pathname.split("/")[2]
-console.log(category,"double")
   const data : Product[]= dataByCategory[category]                                                                                                                                                                                                                                                                   
 
   useEffect(() => {

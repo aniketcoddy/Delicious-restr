@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import NotificationPage from "@/components/Notification";
 import Navbar from "@/components/Navbar";
+import CreateStore from "@/Store/CreateStore";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,10 +21,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-       <NotificationPage/>
-        <Navbar/>
-        <main>{children}</main>
-        <Footer />
+        <CreateStore>
+          <NotificationPage />
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </CreateStore>
       </body>
     </html>
   );

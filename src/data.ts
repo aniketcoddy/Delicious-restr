@@ -333,7 +333,7 @@ export const pizza: Products = [
 
 export const burger: Products = [
   {
-    id: 1,
+    id: 7,
     title: "Chicken McGrill",
     desc: "Grilled chicken patty served with freshly toasted bun, tomatoes, onions and cool mint sauce",
     img: "/temporary/p19.png",
@@ -350,7 +350,7 @@ export const burger: Products = [
     ],
   },
   {
-    id: 2,
+    id: 8,
     title: "Tandoori chicken Burger",
     desc: "Grilled chicken patty topped with tandoori sauce, onions and lettuce wrapped in a tortilla.",
     img: "/temporary/p20.png",
@@ -367,7 +367,7 @@ export const burger: Products = [
     ],
   },
   {
-    id: 3,
+    id: 9,
     title: "Veg Supreme Burger ",
     desc: "Delightfully crispy potatoe sandwich with a crispy patty topped with mayonnaise and shredded iceberg lettuce served on a perfectly toasty bun",
     img: "/temporary/p21.png",
@@ -384,7 +384,7 @@ export const burger: Products = [
     ],
   },
   {
-    id: 4,
+    id: 10,
     title: "McAloo VM Burger",
     desc: "Mildly spiced grilled paneer patty topped with makhani sauce and shredded onions placed between freshly toasted sesame seeded buns",
     img: "/temporary/p22.png",
@@ -401,7 +401,7 @@ export const burger: Products = [
     ],
   },
   {
-    id: 5,
+    id: 11,
     title: "McVeggie VM",
     desc: "Mildly spiced grilled paneer patty topped with makhani sauce and shredded onions placed between freshly toasted sesame seeded buns.",
     img: "/temporary/p23.png",
@@ -418,7 +418,7 @@ export const burger: Products = [
     ],
   },
   {
-    id: 6,
+    id: 12,
     title: "Chicken McGrill VM",
     desc: "Grilled chicken patty served with freshly toasted bun, tomatoes, onions and cool mint sauce.",
     img: "/temporary/p24.png",
@@ -438,7 +438,7 @@ export const burger: Products = [
 
 export const pasta: Products = [
   {
-    id: 1,
+    id: 13,
     title: "White Sause Pasta",
     desc: "A blend of American Flavours in your Favorite Pasta Onion, capsicum, sweet corn, mushroom, olives with cheese.",
     img: "/temporary/p13.png",
@@ -455,7 +455,7 @@ export const pasta: Products = [
     ],
   },
   {
-    id: 2,
+    id: 14,
     title: "Red Sause Pasta",
     desc: "Creamy and flavorful pasta coated in a delectable white sauce, this veg dish is a pasta lover's dream come true",
     img: "/temporary/p14.png",
@@ -472,7 +472,7 @@ export const pasta: Products = [
     ],
   },
   {
-    id: 3,
+    id: 15,
     title: "Veg Pasta",
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
     img: "/temporary/p15.png",
@@ -489,7 +489,7 @@ export const pasta: Products = [
     ],
   },
   {
-    id: 4,
+    id: 16,
     title: "Penne Pasta",
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
     img: "/temporary/p16.png",
@@ -506,7 +506,7 @@ export const pasta: Products = [
     ],
   },
   {
-    id: 5,
+    id: 17,
     title: "Cheese Superem Pasta",
     desc: "Cheesy Creamy pasta comfort topped with Mixed Veggies and Heavenly Mixed herbs.",
     img: "/temporary/p17.png",
@@ -523,7 +523,7 @@ export const pasta: Products = [
     ],
   },
   {
-    id: 6,
+    id: 18,
     title: "veg White Sause Pasta",
     desc: "Delicious And Creamy White Sauce Pasta Made From Our Inhouse Cream.",
     img: "/temporary/p18.png",

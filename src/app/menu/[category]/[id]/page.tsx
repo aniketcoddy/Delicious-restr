@@ -11,11 +11,8 @@ const SingleProductPage = () => {
   const pathname = usePathname();
   const category: string = pathname.split("/")[2];
   const id: number = parseInt(pathname.split("/")[3]);
-  console.log(category,"checking")
   const data: Product[] = itemsByCategory[category];
-  console.log(id);
-  const data2: Array<Product> = new Array();
-  data2.push(data.filter((items) => items.id === id)[0]);
+  const data2: Array<Product> = data.filter((items) => items.id === id) ;
 
   useEffect(() => {
     Aos.init()
@@ -50,6 +47,8 @@ const SingleProductPage = () => {
             price={items.price}
             id={items.id}
             options={items.options}
+            img={items.img}
+            name={items.title}
           />
         </div>
       </div>

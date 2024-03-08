@@ -24,7 +24,7 @@ const Aboutpage = () => {
           developer, <b>Aniket Vishnoi</b>. Armed with an arsenal of
           cutting-edge skills, <b>Aniket Vishnoi</b> has meticulously woven
           together Next.js, TypeScript, HTML, and the enchanting Tailwind CSS to
-          conjure up an online haven that's as pleasing to the eyes as it is
+          conjure up an online haven thats as pleasing to the eyes as it is
           functional.
         </p>
         <br/>
@@ -34,13 +34,13 @@ const Aboutpage = () => {
           development. The beating heart of our website lies in the
           sophisticated Redux Toolkit, ensuring a seamless and dynamic user
           journey. Welcome to a culinary adventure divided into three realms:
-          Pizza, Burgers, and Pasta—all presented through an interface that's as
+          Pizza, Burgers, and Pasta—all presented through an interface thats as
           intuitive as it is stunning.
         </p>
         <br/>
         <p>
           But <b>Quickies</b> is not just a feast for the taste buds;
-          it's a visual and interactive delight.Navigate effortlessly
+          its a visual and interactive delight.Navigate effortlessly
           through our diverse menu and keep track of your culinary selections
           with the user-friendly cart feature.
         </p>

@@ -43,7 +43,7 @@ const CartPage = () => {
           {/* SINGLE ITEM */}
           {data.map((items:CartItem)=>{
           return(
-          <div className="flex items-center justify-between mb-4">
+          <div key={items.id} className="flex items-center justify-between mb-4">
            {items.img && <Image src="/temporary/p1.png" alt="" width={100} height={100} /> }
             <div className="">
               <h1 className="uppercase text-xl font-bold">{items.name}</h1>

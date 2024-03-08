@@ -50,6 +50,7 @@ const CartPage = () => {
               <span>{items.title}</span>
             </div>
             <h2 className="font-bold">₹{items.total}</h2>
+            <h2 className="font-bold">({items.quantity})</h2>
             <span className="cursor-pointer"  onClick= {()=>handleRemoveFromCart(items)}>X</span>
           </div>
           )})}

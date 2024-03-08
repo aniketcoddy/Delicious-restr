@@ -20,14 +20,9 @@ const MenuData = [
     link: "/menu",
   },
   {
-    id: 3,
-    name: "Working Hours",
-    link: "/",
-  },
-  {
     id: 4,
-    name: "Contact",
-    link: "/",
+    name: "About",
+    link: "/About",
   },
 ];
 

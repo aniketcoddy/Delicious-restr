@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import bannerImg1 from "../../public/slide1.png";
-import bannerImg2 from "../../public/slide2.png";
+import bannerImg1 from "../../public/slide1.jpg";
+import bannerImg2 from "../../public/slide2.jpg";
 import bannerImg3 from "../../public/slide3.jpg";
 import AOS from 'aos';
 import "aos/dist/aos.css";

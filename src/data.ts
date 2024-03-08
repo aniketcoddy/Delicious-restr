@@ -16,20 +16,6 @@ export const featuredProducts: Products = [
     desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
     img: "/temporary/p1.png",
     price: 249,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
   },
   {
     id: 2,
@@ -37,20 +23,6 @@ export const featuredProducts: Products = [
     desc: "Indulge in smoky goodness with a flame-grilled beef patty, topped with crispy bacon, melted cheddar cheese, caramelized onions, and a smattering of tangy BBQ sauce.",
     img: "/temporary/p2.png",
     price: 299,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
   },
   {
     id: 3,
@@ -58,20 +30,6 @@ export const featuredProducts: Products = [
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
     img: "/temporary/p3.png",
     price: 209,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
   },
   {
     id: 4,
@@ -79,20 +37,7 @@ export const featuredProducts: Products = [
     desc: "Ignite your taste buds with this fiery pasta creation, combining penne in a spicy tomato sauce infused with garlic, red chili flakes, and fresh basil for the ultimate comfort food experience.",
     img: "/temporary/p4.png",
     price: 269,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 4,
-      },
-      {
-        title: "Large",
-        additionalPrice: 6,
-      },
-    ],
+
   },
   {
     id: 5,

@@ -16,11 +16,11 @@ const Navbar = () => {
           <div className=" flex gap-5 font-semibold ">
             <Link href="/">HomePage</Link>
             <Link href="/menu">Menu</Link>
-            <Link href="/">Contact</Link>
+            <Link href="/About">About</Link>
           </div>
         </div>
         <div className="md:mx-auto">
-          <Link href="/">Massimo</Link>
+          <Link href="/">Quickies</Link>
         </div>
         {/* mobile Menu */}
         <ResponsiveNav />

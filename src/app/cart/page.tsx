@@ -43,14 +43,14 @@ const CartPage = () => {
           {/* SINGLE ITEM */}
           {data.map((items:CartItem)=>{
           return(
-          <div key={items.id} className="flex items-center justify-between mb-4">
-           {items.img && <Image src={items.img} alt="" width={100} height={100} /> }
+          <div key={items.id} className="flex items-center justify-between md:px-20 lg:px-8 mb-4">
+           {items.img && <Image src={items.img} alt="" width={100} height={100}  className=""/> }
             <div className="">
-              <h1 className="uppercase text-xl font-bold">{items.name}</h1>
-              <span>{items.title}</span>
+              <h1 className="uppercase text-xs md:text-lg font-bold">{items.name}</h1>
+              <span className="text-[10px] md:text-sm">{items.title}</span>
             </div>
-            <h2 className="font-bold">₹{items.total}</h2>
-            <h2 className="font-bold">({items.quantity})</h2>
+            <h2 className="font-bold text-xs md:text-lg">₹{items.total}</h2>
+            <h2 className="font-bold text-xs md:text-base">({items.quantity})</h2>
             <span className="cursor-pointer"  onClick= {()=>handleRemoveFromCart(items)}>X</span>
           </div>
           )})}
@@ -61,7 +61,7 @@ const CartPage = () => {
         </div>
       )}
       {/* PAYMENT CONTAINER */}
-      <div className="h-1/2 p-4 bg-fuchsia-100 flex text-sm flex-col gap-2 justify-center lg:h-full lg:w-1/2 2xl:w-1/2 xl:text-xl 2xl:text-xl xl:px-20 2xl:px-16">
+      <div className="h-1/2 p-4 bg-fuchsia-100 flex text-sm flex-col md:px-20 gap-2 justify-center lg:h-full lg:w-1/2 2xl:w-1/2 xl:text-xl 2xl:text-xl xl:px-20 2xl:px-16">
         <div className="flex justify-between">
           <span className="">Subtotal ({data.length})</span>
           <span className="">₹{amount}</span>

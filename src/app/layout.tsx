@@ -9,7 +9,7 @@ import CreateStore from "@/Store/CreateStore";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Delicious",
+  title: "Quickies",
   description: "my Restraunt",
 };
 
